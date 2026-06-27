@@ -1,6 +1,9 @@
-fastapi==0.138.1
-passlib==1.7.4
-pydantic==2.13.4
-pydantic_settings==2.14.2
-python_jose==3.5.0
-SQLAlchemy==2.0.51
+fastapi
+uvicorn[standard]
+sqlalchemy>=2.0
+pydantic>=2.0
+pydantic-settings
+python-jose[cryptography]
+passlib[argon2]
+psycopg2-binary
+python-multipart
